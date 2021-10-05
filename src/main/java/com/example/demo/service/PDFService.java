@@ -26,7 +26,6 @@ public class PDFService {
 
         PDDocument doc = PDDocument.load(decodedBytes);
 
-
         int keyLength = 128;
 
         AccessPermission ap = new AccessPermission();
